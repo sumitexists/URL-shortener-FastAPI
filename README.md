@@ -29,7 +29,7 @@ A simple URL shortener REST API built with FastAPI and SQLModel. This is my firs
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/url-shortener-fastapi.git](https://github.com/sumitexists/URL-shortener-FastAPI
+git clone https://github.com/sumitexists/URL-shortener-FastAPI
 cd URL-shortener-FastAPI
 ```
 
