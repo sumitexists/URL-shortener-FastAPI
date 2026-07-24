@@ -35,7 +35,7 @@ async def create_shortend_url (
 
     return {"shortend_url" : f"http://localhost:8000/{url.shortend_url}"}
 
-@app.get("/{shortend_url}", status_code=301, response_model = dict)
+@app.get("/{shortend_url}", status_code=307, response_model = dict)
 async def redirect_url(shortend_url:Annotated[str , Path(title="Redirects to URL",
             description="Redirects using the shortened URL to the real URL for which it was created.",
             example="ab12Ew")],session : Session = Depends(get_session)):
